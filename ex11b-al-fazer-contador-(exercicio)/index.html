@@ -65,7 +65,10 @@
 
     // Função para gerar uma citação aleatória
     function gerarCitacao() {
-      const indiceAleatorio = Math.floor(Math.random() * quotes.length);/* Utilizamos o comando mth floor e random, para as frases aparecerem aleatoriamente*/
+      const indiceAleatorio = Math.floor(Math.random() * quotes.length);/* Utilizamos o comando mth floor e random, para as 
+      frases aparecerem aleatoriamente:
+       ( Math.random: Gera um número decimal pseudoaleatório entre 0 (inclusivo) e 1 (exclusivo).
+        Math.floor: Arredonda um número para baixo para o inteiro mais próximo.  */
       quoteText.textContent = quotes[indiceAleatorio];
     }
 
